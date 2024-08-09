@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(120deg,#800080,#0ba0dc);
+}
+
+.main_article_section{
+    width: 100%;
+    max-width: 480px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg,#800080,#0ba0dc);
+    border-radius: 2rem;
+}
+
+.company_logo{
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_article_section_form{
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.form_email{
+    margin: 5px;
+    font-size: 1.50rem;
+}
+
+.form_email_box{
+    min-width: 20rem;
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-radius: 1rem;
+    
+}
+
+.form_password{
+    font-size: 1.50rem;
+}
+
+.form_password_box{
+    min-width: 20rem;
+    padding: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border-radius: 1rem;
+}
+
+.forgot_your_password a{
+    font-size: 1.50rem;
+    color:white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 1rem;
+}
+
+.form_button{
+    width: 20rem;
+    height: 2rem;
+    background-color: #0BA0DC;
+    border-radius: 10px;
+}
+
+.login_or{
+   justify-content: center;
+}
+
+.all_section{
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.50rem;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+.login_google{
+    width: 20rem;
+    height: 2rem;
+    margin: 1rem;
+    background-color: blue;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login_facebook{
+    width: 20rem;
+    height: 2rem;
+    margin: 1rem;
+    background-color: blue;
+    color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.create_an_account a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:500px){
+    body{
+        background-color: yellow;
+    }
+    .main_article_section{
+        background: white;
+    }
+
+    .form_email{
+        max-width: 20rem;
+    }
+}

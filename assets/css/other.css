@@ -1,0 +1,46 @@
+.tft_mascot{
+    width: 10%;
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(1,3rf);
+    gap: 10px; 
+}
+
+
+
+.form_header_register{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 1rem;
+}
+
+.form_name_section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.form_county_code{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.form_email_phone{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.form_password_referral{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}

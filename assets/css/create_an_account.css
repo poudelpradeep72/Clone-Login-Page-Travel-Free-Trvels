@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(120deg,#800080,#0ba0dc);
+
+}
+
+.body_header_main_container{
+    width: 100%;
+    max-width: 480px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    gap: 10px;
+    grid-template-rows: auto;
+    background-color: khaki;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.container_section_register{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 2em;
+}
+
+.company_logo_image{
+    width: 100%;
+    max-width: 180px;
+    margin: 0rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0;
+   justify-content: flex-end;
+   align-items: flex-start;
+}
+
+.body_header_main_company_mascot_article{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    gap: 10rem;
+    background-color: yellow;
+}
+
+.company_mascot{
+    width: 100%;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.form_section{
+    /* background-color: green;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0; */
+    
+   
+}
+
+.section_form_container{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    grid-auto-rows: (150px, auto);
+    display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+.middle_name_form{
+    /* display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    justify-content: center; */
+}
+
